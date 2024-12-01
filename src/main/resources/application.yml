@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:C:\Users\evajj\IdeaProjects\MySpringBoot2Dbase\testdb
+  jpa:
+    hibernate:
+      ddl-auto: update
+  h2:
+    console.enabled: true
+server:
+  port: 8084
+
