@@ -4,6 +4,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    show-sql: true
+  main:
+    allow-circular-references: true
   h2:
     console.enabled: true
 server:
